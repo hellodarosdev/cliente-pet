@@ -7,11 +7,11 @@ import jakarta.validation.constraints.NotNull;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import net.bytebuddy.implementation.bind.annotation.Empty;
 import org.hibernate.validator.constraints.br.CPF;
-import java.util.UUID;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.UUID;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 @Getter

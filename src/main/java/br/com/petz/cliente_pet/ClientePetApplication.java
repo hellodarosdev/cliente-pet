@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/")
 public class ClientePetApplication {
-    @GetMapping
 
+    @GetMapping
     public String getHomeTeste(){
-        return "Cliente Pet -API Home";
+        return "Cliente Pet - API Home";
     }
 
 	public static void main(String[] args) {
