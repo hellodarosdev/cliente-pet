@@ -20,7 +20,7 @@ public class ClienteRequest {
     private String telefone;
     private Sexo sexo;
     @NotNull
-    private LocalDate dataNacimento;
+    private LocalDate dataNascimento;
     @CPF
     private String cpf;
     @NotNull
